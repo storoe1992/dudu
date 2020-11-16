@@ -1,3 +1,9 @@
+:root{
+    --color-site : #bcd3bf;
+    --color-secondary : #a85f2b;
+    --color-secondary_2 : #f3f1e4;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -6,6 +12,18 @@ body{
 
 body * {
     font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+    background-color: var(--color-secondary_2);
+}
+
+.nav-link{
+    color: var(--color-secondary);
+}
+
+.section-news-letter{
+    background-color: var(--color-site);
 }
 
 .lobster-font{
@@ -41,6 +59,10 @@ p {
 .carousel-indicators li.active {
     background-color: black;
     opacity: .5;
+}
+
+.footer{
+    background-color:var(--color-secondary_2);
 }
 
 
