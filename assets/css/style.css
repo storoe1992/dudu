@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body * {
+    font-family: 'Cabin', sans-serif;
+}
+
+.lobster-font{
+    font-family: 'Lobster', cursive;
+}
+
+.logo-text{
+    font-size: 2rem;
+}
+
+h1,h2,h3 .subtitle{
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+
+
+.carousel-indicators{
+    position: relative;
+}
+  
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top : 3rem
+}
+
+.carousel-indicators li.active {
+    background-color: black;
+    opacity: .5;
+}
+
+
+
+
+
+
